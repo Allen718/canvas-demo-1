@@ -1,12 +1,10 @@
-
-
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-#canvas {
-  height: 100vh;
-  border: 1px solid red;
-}
+body{ background:#ccc;height: 100vh;}
+#canvas{ background:#fff; margin:50px 10px;
+border:1px solid red }
+input{ display:inline-block; width:80px; height:30px; cursor:pointer; margin-left:10px;}
